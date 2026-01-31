@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternVLA-A1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,500;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="logo-link">
+                <img src="imgs/logo.png" alt="InternRobotics" class="logo">
+            </a>
+            <div class="nav-links">
+                <!-- <a href="#video">DEMO</a> -->
+                <!-- <a href="#arch">ARCHITECTURE</a> -->
+                <!-- <a href="#data">DATA</a> -->
+                <!-- <a href="#paper">PAPER</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <div class="header-line"></div>
+            <!-- <h1 class="main-title">Scaling <em>Intuitive</em> Manipulation <br>via Physical Foundation Models</h1> -->
+            <h1 class="main-title"><em>InternVLA-A1</em>: Unifying Understanding, Generation<br> and
+                Action for Robotic Manipulation</h1>
+        
+            <div class="meta-row">
+                <div class="meta-item">
+                    <span class="label">Paper</span>
+                    <p><a href="https://arxiv.org/pdf/2601.02456" target="_blank" class="hf-link">Paper</a></p>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Data</span>
+                    <p><a href="https://huggingface.co/datasets/InternRobotics/InternData-A1" target="_blank" class="hf-link">InternData-A1</a></p>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Code</span>
+                    <p><a href="https://github.com/InternRobotics/InternVLA-A1" target="_blank" class="hf-link">InternVLA-A1</a></p>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Model</span>
+                    <p><a href="https://huggingface.co/InternRobotics/InternVLA-A1-3B" target="_blank" class="hf-link">InternVLA-A1</a></p>
+                </div>
+            </div>
+        </header>
+
+        <section id="video-presentation" class="detail-section">
+            <div class="method-container">
+                <div class="method-header">
+                    <h2 class="method-title">Video Presentation</h2>
+                </div>
+
+                <div class="spotlight-video-box">
+                    <div class="video-responsive">
+                        <iframe
+                            src="https://www.youtube.com/embed/fVES0YVu6zw?si=OliKPDnJjkw-JekW"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section class="grid-section">
+            <div class="grid-card">
+                <h2>Predictive Dynamics</h2>
+                <p>原生支持 RGB-D、力觉反馈与自然语言指令的同步处理，实现更细粒度的控制决策。</p>
+            </div>
+            <div class="grid-card">
+                <h2>Data Para</h2>
+                <p>无需针对新物体进行微调。模型通过在大规模数据集上学习，已具备基础的物理因果常识。</p>
+            </div>
+            <div class="grid-card">
+                <h2>Universal API</h2>
+                <p>提供跨平台的 Python 控制接口，支持 ROS2 与现有的工业机器人控制器无缝衔接。</p>
+            </div>
+        </section> -->
+
+        <section id="xxx" class="detail-section">
+            <section id="arch" class="detail-section">
+                <div class="method-container">
+                    <div class="method-header">
+                        <h2 class="method-title">Unified Understanding-Generation-Action Framework</h2>
+                        <p class="method-description">
+                            InternVLA-A1 unifies scene understanding, visual foresight, and action execution into a single framework:
+                            <br>(1) an understanding expert: parses image and text inputs to encode scene context;
+                            <br>(2) a generation expert: predicts future visual states and task dynamics;
+                            <br>(3) an action expert: utilizes these predictions to generate control commands via Flow Matching.
+                            <br>
+                            <br>🧠 The Core: Synergizes MLLM's semantic understanding with world-model-style dynamic prediction, to "imagine" the future and guide adaptive actions.
+                            <br>🚀 The Fuel: Empowered by high-fidelity synthetic data (InternData-A1).
+                        </p>
+                    </div>
+            
+                    <a href="imgs/method_InternVLA-A1.png" target="_blank" class="method-image-link no-overlay">
+                        <div class="image-placeholder">
+                            <div class="image-wrapper">
+                                <img src="imgs/method_InternVLA-A1.png" alt="InternVLA-A1 Architecture" class="preview-img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </section>
+
+        <section id="highlights" class="detail-section">
+            <div class="method-container">
+                <div class="method-header">
+                    <h2 class="method-title">Dynamic Manipulation</h2>
+                    <p class="method-description">
+                        We designed two tasks involving manipulation in dynamic scenes: Express Sorting and In-motion Ingredient Picking.
+                        Experiments demonstrate that InternVLA-A1 exhibits exceptional robustness in such highly dynamic scenarios.
+                    </p>
+                </div>
+        
+                <div class="video-scroll-outer">
+                    <div class="video-scroll-container">
+                        <div class="video-track">
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/express_sorting_upright_3.mp4"></video>
+                                <!-- <div class="video-info"><span>Task 01: Sort Rubbish</span></div> -->
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/express_sorting_complete.mp4"></video>
+                                <!-- <div class="video-info"><span>Task 02: Sweep Trash</span></div> -->
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/In-motion_Ingredient_Picking_4x.mp4"></video>
+                                <!-- <div class="video-info"><span>Task 03: Unscrew Cap</span></div> -->
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/express_sorting_inverted_2.mp4"></video>
+                                <!-- <div class="video-info"><span>Task 04: Zip Bag</span></div> -->
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/express_sorting_upright_2.mp4"></video>
+                                <!-- <div class="video-info"><span>Task 05: Wipe Stain</span></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="scroll-hint">SHITF + SCROLL TO EXPLORE →</p>
+            </div>
+        </section>
+
+        <section id="demos" class="detail-section">
+            <div class="method-container">
+                <div class="method-header">
+                    <h2 class="method-title">Daily Tasks</h2>
+                    <p class="method-description">
+                        InternVLA-A1 demonstrates leading performance across diverse daily tasks, ranging from dexterous manipulation (e.g., Unscrew Cap, Zip Bag, Sort Parts) to
+                        regular manipulation (e.g., Make Sandwich, Operate Oven, Sort Rubbish).
+                    </p>
+                </div>
+        
+                <div class="video-scroll-outer">
+                    <div class="video-scroll-container">
+                        <div class="video-track">
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/sort_parts_4x.mp4"></video>
+                                <div class="video-info"><span>Task 01: Sort Parts</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/zig_bag_4x.mp4"></video>
+                                <div class="video-info"><span>Task 02: Zip Bag</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/unscrew_cap_4x.mp4"></video>
+                                <div class="video-info"><span>Task 03: Unscrew Cap</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/place_flower_4x.mp4"></video>
+                                <div class="video-info"><span>Task 04: Place Flower</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/wipe_stain_4x.mp4"></video>
+                                <div class="video-info"><span>Task 05: Wipe Stain</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/sort_rubbish_4x.mp4"></video>
+                                <div class="video-info"><span>Task 06: Sort Rubbish</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/sweep_trash_4x.mp4"></video>
+                                <div class="video-info"><span>Task 07: Sweep Trash</span></div>
+                            </div>
+                            <div class="video-card">
+                                <video autoplay muted loop playsinline src="videos/place_markpen_4x.mp4"></video>
+                                <div class="video-info"><span>Task 08: Place Markpen</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="scroll-hint">SHITF + SCROLL TO EXPLORE →</p>
+            </div>
+        </section>
+
+        <section id="real-world performance" class="detail-section">
+            <div class="method-container">
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+                <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+                <div class="method-header">
+                    <h2 class="method-title">Real-world Performance</h2>
+                    <p class="method-description">
+                        InternVLA-A1 demonstrates superior performance compared to the prior
+                        state-of-the-art models, \(\pi_0\) (3.3B) and GR00T N1.5 (3B). 
+                        InternVLA-A1 (3B) reaches an
+                        average success rate of 75.1%—a 14.5% absolute improvement over \(\pi_0\) across 10 diverse tasks.
+                    </p>
+                </div>
+                <!-- <head> -->
+    <!-- 加载 MathJax -->
+                <!-- </head>
+                <body>
+                    <p>使用 MathJax：\(\pi = 3.14159\) 或 \[\pi = \frac{C}{d}\]</p>
+                </body> -->
+        
+                <div class="spotlight-video-box">
+                    <video 
+                        autoplay 
+                        muted 
+                        loop 
+                        playsinline 
+                        webkit-playsinline 
+                        class="spotlight-video">
+                        <source src="videos/real_performance.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-tag">REAL-WORLD PERFORMANCE</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ablation" class="detail-section">
+            <div class="method-container">
+                <div class="method-header">
+                    <h2 class="method-title">Ablation Study</h2>
+                    <p class="method-description">
+                        Without large-scale robot pretraining or the generation expert, InternVLA-A1 degrades dramatically.
+                    </p>
+                </div>
+        
+                <div class="spotlight-video-box">
+                    <video 
+                        autoplay 
+                        muted 
+                        loop 
+                        playsinline 
+                        webkit-playsinline 
+                        class="spotlight-video">
+                        <source src="videos/ablation.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-tag">ABLATION STUDY</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
