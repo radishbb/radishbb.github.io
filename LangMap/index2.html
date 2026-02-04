@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"> LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation </h1>
+            <div class="is-size-5 publication-authors" style="color:#3273dc; margin-top: 18px;">
+              <!-- Paper authors -->
+              <span class="author-block">
+                  Bo Miao<sup>1</sup>, Weijia Liu<sup>2</sup>, Jun Luo<sup>3</sup>, Lachlan Shinnick<sup>1</sup>, Jian Liu<sup>3</sup>, Thomas Hamilton-Smith<sup>1</sup>, Yuhe Yang<sup>4</sup>, Zijie Wu<sup>5</sup>, Vanja Videnovic<sup>6</sup>, Feras Dayoub<sup>1</sup>, Anton van den Hengel<sup>1</sup>
+              </span>
+            </div>
+              <!-- Affiliations -->
+            <div class="is-size-6 publication-authors" style="color:#3273dc; margin-top: 12px;">
+              <span class="author-block">
+                <sup>1</sup> AIML, University of Adelaide &nbsp; | &nbsp;
+                <sup>2</sup> East China Normal University &nbsp; | &nbsp;
+                <sup>3</sup> NERC-RVC, Hunan University <br>
+                <sup>4</sup> University of Western Australia &nbsp; | &nbsp;
+                <sup>5</sup> Singapore University of Technology and Design &nbsp; | &nbsp;
+                <sup>6</sup> Breaker Industries
+              </span>
+            </div>
+                  <div class="column is-11">
+
+
+      </div>
+      <div class="column has-text-centered">
+        <div class="publication-links">
+          <!-- ArXiv abstract Link -->
+          <span class="link-block">
+            <a href="./static/pdfs/LangMap.pdf" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+            </a>
+          </span>
+
+                  <span class="link-block">
+                    <a href="https://github.com/bo-miao/LangMap"
+                       class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                          <i class="fas fa-database"></i>
+                      </span>
+                      <span>Dataset</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/bo-miao/LangMap" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a class="button is-normal is-rounded is-dark is-static">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Annotation Tool</span>
+                  </a>
+                </span>
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/hieranav_framework.png"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+      <h2 class="subtitle has-text-centered">
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The relationships between objects and language are fundamental to meaningful communication between humans and AI, and to practically useful embodied intelligence.
+            We introduce HieraNav, a multi-granularity, open-vocabulary goal navigation task where agents interpret natural language instructions to reach targets at four semantic levels: scene, room, region, and instance. To this end, we present Language as a Map (LangMap), a large-scale benchmark built on real-world 3D indoor scans with comprehensive human-verified annotations and tasks spanning these levels. LangMap provides region labels, discriminative region descriptions, discriminative instance descriptions covering 414 object categories, and over 18K navigation tasks. Each target features both concise and detailed descriptions, enabling evaluation across different instruction styles. LangMap achieves superior annotation quality, outperforming GOAT-Bench by 23.8% in discriminative accuracy using 4 times fewer words. Comprehensive evaluations of strong zero-shot and supervised models on LangMap reveal that richer context and memory improve success, while long-tailed, small, context-dependent, and distant goals, as well as multi-goal completion, remain challenging. HieraNav and LangMap establish a rigorous testbed for advancing language-driven embodied navigation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+  <!-- Qualitative Examples -->
+<!--<section class="section hero is-light">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-four-fifths">-->
+<!--        <h2 class="title is-3">Qualitative Examples</h2>-->
+<!--        <div class="content has-text-justified">-->
+<!--          <p>-->
+<!--            The relationships between objects and language are fundamental to meaningful communication between humans and AI, and to practically useful embodied intelligence.-->
+<!--            We introduce HieraNav, a multi-granularity, open-vocabulary goal navigation task where agents interpret natural language instructions to reach targets at four semantic levels: scene, room, region, and instance. To this end, we present Language as a Map (LangMap), a large-scale benchmark built on real-world 3D indoor scans with comprehensive human-verified annotations and tasks spanning these levels. LangMap provides region labels, discriminative region descriptions, discriminative instance descriptions covering 414 object categories, and over 18K navigation tasks. Each target features both concise and detailed descriptions, enabling evaluation across different instruction styles. LangMap achieves superior annotation quality, outperforming GOAT-Bench by 23.8% in discriminative accuracy using 4 times fewer words. Comprehensive evaluations of strong zero-shot and supervised models on LangMap reveal that richer context and memory improve success, while long-tailed, small, context-dependent, and distant goals, as well as multi-goal completion, remain challenging. HieraNav and LangMap establish a rigorous testbed for advancing language-driven embodied navigation.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!-- End Qualitative Examples -->
+
+<!--&lt;!&ndash; Image carousel &ndash;&gt;-->
+<!--&lt;!&ndash; End image carousel &ndash;&gt;-->
+
+<!--&lt;!&ndash; Framework. &ndash;&gt;-->
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <h2 class="title is-3">Approach</h2>-->
+<!--        <img src="./static/images/s1s2_overview.png"-->
+<!--                 class="interpolation-image"-->
+<!--                 alt="Interpolate start reference image."/>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <div class="content has-text-justified">-->
+<!--          <p>-->
+<!--            InternVLA-N1 adopts a compositional architecture featuring a dual-system design that synergistically combines high-level instruction interpretation with low-level action execution. Specifically, our system integrates:-->
+<!--          </p>-->
+<!--          <ul>-->
+<!--            <li><strong>System 2:</strong> A vision-language model (VLM)-based planning module that interprets navigation instructions to predict mid-term waypoint goals through image-grounded reasoning. By predicting pixel coordinates in the image space, it effectively connects instruction understanding with spatial reasoning, enabling long-horizon navigation instruction following.</li>-->
+<!--            <li><strong>System 1:</strong> A multi-modal goal-conditioned diffusion policy guided by latent plan or supported explicit goals, which generates executable short-horizon trajectories conditioned on current observations and the asynchronous latent features from System 2. It enables robust, real-time control and local decision-making in complex environments.</li>-->
+<!--          </ul>-->
+<!--          <p>-->
+<!--            To fully unlock open-world generalization and asynchronous inference capabilities in the dual-system architecture, we design a curriculum training scheme. Initially, each system is trained separately to acquire basic navigation skills using explicit goals in a synchronized setting. Then, a joint fine-tuning phase is introduced. In this phase, we incorporate learnable tokens into System 2 as implicit midterm goals to reduce the ambiguity of pixel-based targets. -->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <img src="./static/images/internvla_model.png"-->
+<!--                 class="interpolation-image"-->
+<!--                 alt="Interpolate start reference image."/>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End youtube video &ndash;&gt;-->
+
+<!-- -->
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <h2 class="title is-3">InternData-N1 Dataset</h2>-->
+
+<!--        <div class="content has-text-justified">-->
+<!--          <p>-->
+<!--            For the navigation task, most real-world datasets are constrained by scene diversity and scale. Meanwhile, Internet video datasets suffer from imprecise localization and mapping information, which limits their feasibility as reliable navigation datasets for trajectory prediction. In contrast, we propose efficient pipelines for generating navigation datasets in simulation, aiming to facilitate scalable training.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <img src="./static/images/interndata_table.png"-->
+<!--        class="interpolation-image"-->
+<!--        alt="Interpolate start reference image."/>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    -->
+
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <img src="./static/images/interndata_overview.jpg"-->
+<!--                 class="interpolation-image"-->
+<!--                 alt="Interpolate start reference image."/>-->
+<!--      </div>-->
+<!--    </div>-->
+
+
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-11">-->
+<!--        <img src="./static/images/interndata_pipeline.png"-->
+<!--                 class="interpolation-image"-->
+<!--                 alt="Interpolate start reference image."/>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+
+<!--&lt;!&ndash; Video carousel &ndash;&gt;-->
+<!--<section class="hero is-small is light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container is-centered has-text-centered">-->
+<!--      <hr>-->
+
+<!--      <h1 class="title is-3">Realworld evaluation</h1>-->
+<!--      <h2 class="title is-3">Zero-shot transfer to long-horizon navigation</h2>-->
+
+<!--      <div class="columns is-centered is-vcentered">-->
+<!--        <div class="column">-->
+<!--          <div class="content">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop>-->
+<!--              <source src="static/videos/v1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="content">-->
+<!--            <video poster="" id="video2" autoplay controls muted loop>-->
+<!--              <source src="static/videos/v2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <h2 class="title is-3">Clutter Environment Collision Avoidance</h2>-->
+
+<!--      <div class="columns is-centered is-vcentered">-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_clutter1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Walk through the tables and chairs, turn left into the café, and stop at the coffee counter.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video2" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_clutter2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Walk through the bamboo forest and turn left. Reach a man sitting on the sofa.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      -->
+
+
+<!--      <h2 class="title is-3">Semantics Understanding</h2>-->
+
+<!--      <div class="columns is-centered is-vcentered">-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_semantic1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Walk straight ahead, turn right after seeing the billiard table, and enter the room with shelves.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video2" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_semantic2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Enter the office area. Immediately turn left and continue straight. Then make a right turn. Stop at the workstation near the whiteboard.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <h2 class="title is-3"></h2>-->
+
+<!--      <div class="columns is-centered is-vcentered">-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_semantic3.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Walk out of this house and find a trash bin.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="video-container">-->
+<!--            <video poster="" id="video2" autoplay controls muted loop>-->
+<!--              <source src="static/videos/demo_semantic4.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered instruction-text">Instruction: Walk towards the orange coffee sculpture and go upstairs. Then keep walking straight and turn right at the end.  After that turn left and walking to the man with a black umbrella. Stop in front of the doors with red handles.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <hr>-->
+<!--      <h2 class="title is-3">Baseline comparison</h2>-->
+
+<!--      <div class="columns is-centered is-vcentered">-->
+<!--        <div class="column">-->
+<!--          <div class="content">-->
+<!--            <video poster="" autoplay controls muted loop>-->
+<!--              <source src="static/videos/baseline_navila.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered is-size-5">NAVILA</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="content">-->
+<!--            <video poster="" autoplay controls muted loop>-->
+<!--              <source src="static/videos/baseline_internrobotics.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered is-size-5">InternVLA-N1</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <div class="content">-->
+<!--            <video poster="" autoplay controls muted loop>-->
+<!--              <source src="static/videos/baseline_streamvln.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <p class="has-text-centered is-size-5">StreamVLN</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+
+<!--      <img src="./static/images/realworld_metrics.png"-->
+<!--      class="interpolation-image"-->
+<!--      alt="Interpolate start reference image."/>-->
+
+<!--     </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End video carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+
+<!--    <div class="container is-centered has-text-centered">-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--        <div class="column is-four-fifths">-->
+<!--              <hr>-->
+
+<!--          <h1 class="title is-3">Evaluation in Simulation</h1>-->
+<!--          <h2 class="title is-3">Quantitative results</h2>-->
+<!--      <div class="content has-text-justified">-->
+<!--        <p>-->
+<!--          Our RGB-only variant outperforms all previous RGB-based methods on the R2R Val-Unseen benchmark. It achieves a Success Rate (SR) of 55.4% and an SPL of 52.1%, surpassing previous state-of-the-art models like NAVILA and MapNav.-->
+<!--        </p>-->
+<!--      </div>-->
+
+<!--      <img src="./static/images/main_result.png"-->
+<!--      class="interpolation-image"-->
+<!--      alt="Interpolate start reference image."/>-->
+<!--      <hr>-->
+<!--      <div class="content has-text-justified">-->
+<!--        <p>-->
+<!--          Our System 1 model showcases several distinctive capabilities, outperforming baseline methods significantly. It achieves 2.7x better performance in no-goal exploration tasks, a 10.9% higher success rate in complex indoor path-planning, and 27.1% better performance in image-driven exploration by adaptively balancing exploration and exploitation.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--      -->
+<!--      <img src="./static/images/s1_result1.png"-->
+<!--      class="interpolation-image"-->
+<!--      alt="Interpolate start reference image."/>-->
+
+<!--      <img src="./static/images/s1_result2.png"-->
+<!--      class="interpolation-image"-->
+<!--      alt="Interpolate start reference image."/>-->
+
+<!--      <img src="./static/images/s1_result3.png"-->
+<!--      class="interpolation-image"-->
+<!--      alt="Interpolate start reference image."/>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--<hr>-->
+<!--    <h2 class="title is-3">Dual-System VLN-CE evaluation</h2>-->
+<!--      <p>Some visualization results of our dual-system model on VLN-CE benchmark (habitat simulator) are as follows. Green curves are GT.</p> -->
+<!--      <div id="results-carousel" class="carousel results-carousel is-centered has-text-centered is-max-desktop content">-->
+<!--        <div class="item item-video1">-->
+<!--          <video poster="" id="video1" autoplay controls muted loop width="75%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/sim4.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          <video poster="" id="video2" autoplay controls muted loop width="75%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/sim5.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          <video poster="" id="video3" autoplay controls muted loop width="75%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/sim6.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video4">-->
+<!--          <video poster="" id="video4" autoplay controls muted loop width="75%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/sim7.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--<hr>-->
+<!--      <h2 class="title is-3">Dual-System VLN-PE evaluation</h2>-->
+<!--      <p>To narrow the sim2real gap, we further evaluate our dual-system on VLN-PE with physics simulation of InternUTopia on a Unitree H1 robot. </p> -->
+<!--      <div id="results-carousel" class="carousel results-carousel is-centered has-text-centered is-max-desktop content">-->
+<!--        <div class="item item-video1">-->
+<!--          <video poster="" id="video1" autoplay controls muted loop width="75%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE1.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          <video poster="" id="video2" autoplay controls muted loop width="75%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE2.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          <video poster="" id="video3" autoplay controls muted loop width="75%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE3.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video4">-->
+<!--          <video poster="" id="video4" autoplay controls muted loop width="75%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE4.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video5">-->
+<!--          <video poster="" id="video5" autoplay controls muted loop width="75%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE5.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video6">-->
+<!--          <video poster="" id="video6" autoplay controls muted loop width="75%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/VLNPE6.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <hr>-->
+<!--      <h2 class="title is-3">System 1 evaluation </h2>-->
+<!--      <p>Evaluation of our System 1 model in more diverse and clutter environments are shown as follows. Our System 1 supports different input patterns.</p> -->
+<!--      -->
+<!--      <div id="results-carousel" class="carousel results-carousel is-centered has-text-centered is-max-desktop content">-->
+
+<!--        <div class="item item-video5">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="s1_video1" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_pointgoal1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">PointGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="item item-video6">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="s1_video2" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_pointgoal2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">PointGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="item item-video7">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="s1_video3" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_nogoal_1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">NoGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="item item-video8">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="s1_video4" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_nogoal_2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">NoGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="item item-video1">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_imagegoal1.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">ImageGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="item item-video1">-->
+<!--          <div class="box has-background-white" style="padding: 1.5rem;">-->
+<!--            <video poster="" id="video1" autoplay controls muted loop width="75%">-->
+<!--              <source src="static/videos/system1_imagegoal2.mp4" type="video/mp4">-->
+<!--            </video>-->
+<!--            <h2 class="title is-4" style="margin-top: 1rem;">ImageGoal</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--</section>-->
+
+<!-- End video carousel -->
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{miao2026langmap,
+  title = {LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation},
+  author = {Bo Miao and Weijia Liu and Jun Luo and Lachlan Shinnick and Jian Liu and Thomas Hamilton-Smith and Yuhe Yang and Zijie Wu and Vanja Videnovic and Feras Dayoub and Anton {van den Hengel}},
+  journal = {arXiv preprint arXiv:2602.02220},
+  year = {2026}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

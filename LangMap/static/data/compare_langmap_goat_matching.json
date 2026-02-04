@@ -1,0 +1,596 @@
+[
+  {
+    "LangMap_Concise": "white refrigerator cabinet in kitchen",
+    "LangMap_Detailed": "white refrigerator cabinet with refrigerator in kitchen near dark island beneath lake map and white cabinets with stainless stove and oven",
+    "GOAT_Bench": "refrigerator cabinet located next to the built-in refrigerator.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "345",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "white kitchen cabinet above the toaster",
+    "LangMap_Detailed": "white kitchen cabinet above the toaster near oven and lake map",
+    "GOAT_Bench": "kitchen cabinet located near the kitchen lower cabinet. the kitchen cabinet is a white cabinet with a marble counter top.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "344",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "towel by walk-in shower door in bathroom with urinal",
+    "LangMap_Detailed": "towel by walk-in shower door facing toilet in the bathroom with urinal below silver board",
+    "GOAT_Bench": "towel with a blue stripe on it. it is located near the couch and shower soap shelf.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "865",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "lower kitchen cabinet just to the right of the stove",
+    "LangMap_Detailed": "white lower kitchen cabinet with marble countertop and black knobs just to the right of the stove near dark island with stools",
+    "GOAT_Bench": "kitchen cabinet with white cabinets, a marble counter top, and stainless steel appliances. it is located adjacent to the oven and stove and opposite the oven vent.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "334",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "cabinet above washing machine",
+    "LangMap_Detailed": "two-door white wall cabinet mounted above washing machine",
+    "GOAT_Bench": "white cabinet with a white washer and dryer. the cabinet is located towards the top right corner of the frame relative to the washer-dryer.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "130",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "bed below black dog picture",
+    "LangMap_Detailed": "bed with gray tufted headboard and striped bedding below black dog picture in bedroom beside teal nightstand",
+    "GOAT_Bench": "striped comforter king-sized bed in relation to the other objects.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "791",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "stainless refrigerator near washing machines",
+    "LangMap_Detailed": "stainless steel refrigerator with arched handle in laundry room with side-by-side washing machines",
+    "GOAT_Bench": "refrigerator located above the cabinet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "242",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "white kitchen cabinet with stainless sink",
+    "LangMap_Detailed": "white kitchen cabinet with stainless sink below window near oven and lake map",
+    "GOAT_Bench": "kitchen lower cabinet. it is located below the kitchen cabinet, to the left of the refrigerator cabinet, and near the sink and grate. the kitchen lower cabinet is a white cabinet with a white countertop and a white sink with a white faucet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "343",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "left white-teal striped bed beside another bed",
+    "LangMap_Detailed": "left white metal bed with teal pillow and white-teal striped quilt beside teal nightstand in bedroom with twin beds near white curtain",
+    "GOAT_Bench": "bed that is located near the bedside lamp and carpet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "755",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "kitchen island",
+    "LangMap_Detailed": "curved kitchen island with blue chairs near white kitchen cabinets with dishwasher",
+    "GOAT_Bench": "kitchen island located to the right of the kitchen counter and to the left of the refrigerator. it is also situated in front of the kitchen cabinet and behind the cooker. the kitchen island is a large island with a breakfast bar.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "110",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "mantel above stone fireplace",
+    "LangMap_Detailed": "light wood mantel above fireplace beside TV on dark cabinet in living room with couch and wood coffee table",
+    "GOAT_Bench": "shelf that is located above the fireplace.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "462",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "white kitchen cabinet with a knife holder",
+    "LangMap_Detailed": "white kitchen cabinet with marble countertop below a knife holder and kitchen utensil under upper cabinet",
+    "GOAT_Bench": "kitchen cabinet located on the kitchen countertop. the kitchen cabinet is white in color.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "335",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "paisley fabric couch in front of a tall plant",
+    "LangMap_Detailed": "paisley fabric couch in front of a tall green plant by window",
+    "GOAT_Bench": "sofa seat located near the fireplace and next to the plant.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "489",
+    "LangMap_Correct": false,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "kitchen island counter above chairs",
+    "LangMap_Detailed": "kitchen island counter above chairs near the gray couch with white plush blanket and two plaid pillows",
+    "GOAT_Bench": "kitchen counter with marble counter tops. look for the kitchen island nearby. additionally, locate a stool close to the kitchen counter. you might also find a kitchen cabinet nearby. finally, the dishwasher is positioned to the right of the kitchen counter.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "102",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "navy blue couch in bedroom",
+    "LangMap_Detailed": "navy blue couch with beige pillow in bedroom near bunk beds and birch-patterned wall",
+    "GOAT_Bench": "the dark blue couch located near the curtain and pillow.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "687",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "flower vase with twigs below wall-mounted TV",
+    "LangMap_Detailed": "flower vase with twigs below wall-mounted TV near a dark leather couch with red throw and a paisley fabric couch",
+    "GOAT_Bench": "vase with a lion's head on it. the vase is located on a table, near the back side of the table.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "480",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "bathroom cabinet below a pelican print",
+    "LangMap_Detailed": "black single-sink bathroom cabinet with white countertop below a pelican coastal painting in the bathroom with walk-in shower",
+    "GOAT_Bench": "bathroom cabinet located near the mirror and toilet. it is black in appearance.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "213",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "cabinet with mirror in hall",
+    "LangMap_Detailed": "light gray cabinet with a decorative mirror near the entry door with a wreath and a gray runner rug",
+    "GOAT_Bench": "cabinet with a mirror on it. look for the mirror that is located within the bounds of the cabinet.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "143",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "bed with brown headboard",
+    "LangMap_Detailed": "white damask bed with brown wooden headboard in the bedroom near a TV on a wood dresser and a framed mirror",
+    "GOAT_Bench": "the king size bed located near the mirror and pillow.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "164",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "dark desk by a black leather chair",
+    "LangMap_Detailed": "dark desk with empty countertop by a black leather office chair",
+    "GOAT_Bench": "desk in the room. the desk is located near the desk chair and a lamp.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "806",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "wood shelf near table tennis table",
+    "LangMap_Detailed": "dark wood shelf holding triangular metal frame beside pool sticks in rec room near table tennis table and board games on white wall",
+    "GOAT_Bench": "shelf which is located above the carpet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "32",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "right armchair near heart-shaped wall-shelf",
+    "LangMap_Detailed": "right armchair with a shared brown side table near heart-shaped wall-shelf and tv against stone wall",
+    "GOAT_Bench": "the armchair located on the left side of the table. the armchair is a brown leather recliner.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "620",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "black console table behind sofa",
+    "LangMap_Detailed": "narrow black console table behind a dark leather couch with red throw near the rectangular coffee table on floral rug",
+    "GOAT_Bench": "wooden cabinet with a tv on it located above the clock and to the right of the cloth.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "499",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "plush blanket on couch",
+    "LangMap_Detailed": "cream plush blanket spread on the gray couch with two plaid pillows near a glass coffee table and Christmas tree",
+    "GOAT_Bench": "blanket that is located next to the sofa, on the left side of the table, and near the plant. it is a white blanket with a tan tassel on one end.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "30",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "blanket on bed",
+    "LangMap_Detailed": "teal blanket on bed with white carved headboard below the round woven twig wall art near a round nightstand and a rectangular nightstand",
+    "GOAT_Bench": "blanket that is situated on top of the bed and is adjacent to the nightstand. the blanket has a blue and white pattern.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "306",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "cabinet with lamp in laundry room",
+    "LangMap_Detailed": "cabinet with lamp in the laundry room near white washer and dryer below a white wall cabinet",
+    "GOAT_Bench": "cabinet with a lamp on it. the cabinet is located below the lamp.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "127",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "double sink cabinet near white-and-beige bedding",
+    "LangMap_Detailed": "double sink cabinet near the bed with white-and-beige bedding below two framed prints",
+    "GOAT_Bench": "sink cabinet located near the mirror and wardrobe. the sink cabinet appears as a double sink vanity.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "524",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "bathroom counter with plant",
+    "LangMap_Detailed": "light marble bathroom counter with a single built-in sink and potted green plant beside the toilet below two white towels",
+    "GOAT_Bench": "the bathroom counter, which is the double sink vanity located below the mirror.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "256",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "lower stainless steel oven",
+    "LangMap_Detailed": "lower stainless steel oven beside silver fridge and brown kitchen cabinets",
+    "GOAT_Bench": "kitchen shelf in the kitchen. it is a piece of wood that is attached to a wall. look for it near the refrigerator and oven.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "144",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "white kitchen counter with sink",
+    "LangMap_Detailed": "white marble kitchen counter with double stainless sink below window near curved kitchen island with blue chairs",
+    "GOAT_Bench": "the kitchen counter with marble counter tops. it is located on the kitchen cabinet, adjacent to the sink and the dishwasher. on the right side, there is a kitchen island. look for the rug in front of the counter as a reference.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "83",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "bath cabinet without drawers",
+    "LangMap_Detailed": "light grey wooden bath cabinet without drawers beside a double-sink bath vanity with marble top",
+    "GOAT_Bench": "bathroom cabinet, which is a gray cabinet with a mirror above it. the cabinet is located near the bathroom counter, sink cabinet, and sink. it is positioned to the right of the sink and slightly below the bathroom counter. look for the light fixture above the cabinet for reference.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "195",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "upper built-in stainless oven",
+    "LangMap_Detailed": "upper stainless steel built-in oven in cabinetry beside dark brown kitchen cabinets with granite countertop",
+    "GOAT_Bench": "oven next to the kitchen shelf and refrigerator.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "124",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "stainless refrigerator in kitchen",
+    "LangMap_Detailed": "stainless refrigerator in kitchen near dark island beneath lake map and white cabinets with stainless stove and oven",
+    "GOAT_Bench": "stainless steel refrigerator in the kitchen lower cabinet located near the pillar.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "346",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "potted plant beside dining table",
+    "LangMap_Detailed": "broad-leafed green plant on dark pot beside the rectangle dining table with white chairs",
+    "GOAT_Bench": "cactus plant. it is located near the mirror, to the right of the table, and slightly above the rug.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "46",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "upper kitchen cabinet right of the stove",
+    "LangMap_Detailed": "white upper kitchen cabinet right of the stove in kitchen near dark island beneath lake map and white cabinets with stainless stove and oven",
+    "GOAT_Bench": "kitchen cabinet with white cabinets and marble counter tops. the kitchen cabinet is located below the oven and stove, and to the right of the oven vent.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "337",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "paisley fabric couch with red pillows",
+    "LangMap_Detailed": "paisley fabric couch with red pillows adjacent to the rectangular coffee table on floral rug",
+    "GOAT_Bench": "two-seater sofa located near the table and the pillow.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "496",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "wall-mounted TV in bedroom",
+    "LangMap_Detailed": "wall-mounted TV above a gray dresser in the bedroom near bed without a headboard and a full-length mirror",
+    "GOAT_Bench": "tv that is mounted on the wall, located to the right of the chest of drawers, below the mirror, and slightly above the picture. use these objects as reference points to identify its position.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "335",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "right white-teal striped bed beside another bed",
+    "LangMap_Detailed": "right white metal bed with teal pillow and white-teal striped quilt beside teal nightstand in bedroom with twin beds near white curtain",
+    "GOAT_Bench": "queen-sized bed that is located near the carpet and the bedside lamp. the bed is close to the towel and the pillow as well.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "756",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "bed with striped maroon bedspread",
+    "LangMap_Detailed": "bed with striped maroon bedspread and white pillows in the bedroom near world map on wall and mirror above a black dresser with a blue lamp",
+    "GOAT_Bench": "the area where the king size bed is located. look for nearby objects such as a cabinet, mirror, pillow, and curtain to help you identify the bed.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "253",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "bed without a headboard",
+    "LangMap_Detailed": "bed without a headboard, decorated with several pillows in shades of brown, white, and patterned, beside a gray desk with a mirror and a brown chair",
+    "GOAT_Bench": "queen-sized bed located near a curtain, pillow, and cushion.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "322",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "beige carpet under white-framed twin beds",
+    "LangMap_Detailed": "beige carpet in bedroom with white-framed twin beds with striped bedding and teal pillows beside white curtain",
+    "GOAT_Bench": "berber carpet located near the bed, pillow, wardrobe, towel, and bed table.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "747",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "brown dresser near black metal-framed bed",
+    "LangMap_Detailed": "curved-front wood dresser with cream lamp in bedroom near large metal-framed bed with striped quilt and white desk beside patterned curtain",
+    "GOAT_Bench": "antique dresser located near the desk and the curtain.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "192",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "curved kitchen island counter",
+    "LangMap_Detailed": "curved kitchen island counter near the gray couch with white plush blanket",
+    "GOAT_Bench": "kitchen counter with white quartz counter tops. look for it in the region nearby the kitchen island, kitchen cabinet, dishwasher, plant, and curtain.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "101",
+    "LangMap_Correct": false,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "coffee table beside red couch",
+    "LangMap_Detailed": "rectangular coffee table beside red couch facing wall-mounted TV on tan wall",
+    "GOAT_Bench": "coffee table and go to its location relative to other objects.  based on the given region semantics, the coffee table is located in the region bounded by the coordinates (79.0, 400.0) and (425.0, 511.0). it is positioned below the pillow, which is located in the region bounded by the coordinates (216.0, 296.0) and (278.0, 344.0). additionally, the coffee table is placed next to the couch, which is located in the region bounded by the coordinates (0.0, 294.0) and (335.0, 511.0).  please navigate to the coffee table's location using relative directions and the given objects as references.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "712",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "bath vanity with stainless sink",
+    "LangMap_Detailed": "dark brown bath vanity with dark granite countertop and stainless vessel sink below a red towel near the Eiffel Tower artwork",
+    "GOAT_Bench": "sink cabinet located near the mirror and next to the bookshelf. the sink cabinet has two drawers and a mirror on the door.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "580",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "white kitchen cabinet above the knife holder",
+    "LangMap_Detailed": "white kitchen cabinet above the knife holder in kitchen near dark island beneath lake map and stainless stove and oven",
+    "GOAT_Bench": "kitchen cabinet that is located near the oven and stove. it is a white cabinet with a marble counter top.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "336",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "bathroom counter with two sinks",
+    "LangMap_Detailed": "light marble bathroom counter with two built-in sinks below mirror near the bathtub platform with green leaves below white towel",
+    "GOAT_Bench": "bathroom counter with double sinks. it is located next to the light fixture and the cabinet. the sink and the sink cabinet are also nearby.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "229",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "sliding-door wardrobe beside twin beds",
+    "LangMap_Detailed": "white sliding-door wardrobe in bedroom beside twin beds with striped bedding and green pillows near white curtain",
+    "GOAT_Bench": "walk-in wardrobe located near the bed, carpet, and pillow.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "753",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "honey oak dresser in bedroom",
+    "LangMap_Detailed": "honey oak dresser with trifold mirror in bedroom with wood-framed bed with floral teal bedspread",
+    "GOAT_Bench": "cabinet that is located near the bed and has a mirror on it.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "237",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "white wardrobe with shoes in walk-in closet",
+    "LangMap_Detailed": "white wardrobe with shoes in walk-in closet",
+    "GOAT_Bench": "walk-in wardrobe in the room. it is located near the clothes, pillow, basket, and shoe.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "614",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "gray L-shaped couch near red-top trunk",
+    "LangMap_Detailed": "gray fabric L-shaped couch beside red-top trunk facing TV on low black lattice-front cabinet with wooden statue",
+    "GOAT_Bench": "gray couch that is located near the carpet, stairs railing, table, and pillow.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "62",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "sideboard with TV",
+    "LangMap_Detailed": "white sideboard with TV near gray couch with white plush blanket, glass coffee table, and white fireplace",
+    "GOAT_Bench": "sideboard with a flat screen tv on it. the sideboard is positioned to the right of the tv.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "12",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "dining table",
+    "LangMap_Detailed": "large dark wood rectangular dining table with table runner below chandelier",
+    "GOAT_Bench": "wooden dining table located near the chair, lamp, curtain, plant, bowl of fruit, and blinds.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "64",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "tall plant in white pot beside window",
+    "LangMap_Detailed": "tall plant in white pot beside window near Christmas tree and white fireplace",
+    "GOAT_Bench": "plant that is located near the christmas tree.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "41",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "left rose sofa chair near fireplace",
+    "LangMap_Detailed": "left rose sofa chair beside the stone fireplace below a framed picture",
+    "GOAT_Bench": "red sofa chair that is located near the painting and the fireplace.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "487",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "black TV stand",
+    "LangMap_Detailed": "black TV stand against stone wall facing narrow brown side table between two armchairs",
+    "GOAT_Bench": "the area where you can see a flat screen tv mounted on a stand. it is positioned in front of a stone wall.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "625",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "dresser with turquoise lamp",
+    "LangMap_Detailed": "reddish wood dresser with turquoise lamp in bedroom near bed with striped bedding and gray headboard below black dog picture",
+    "GOAT_Bench": "white dresser with drawers and a mirror on top located near the curtain and the carpet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "788",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "light-blue couch in bedroom",
+    "LangMap_Detailed": "light-blue couch with floral cushions in bedroom beside bed with white quilt beneath white floral wall art",
+    "GOAT_Bench": "couch that is located near the carpet.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "561",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "round dining table",
+    "LangMap_Detailed": "round wood dining table with flowers and floral patterned chairs in the dining room with a woman portrait and owl painting",
+    "GOAT_Bench": "round table in a dining room. it is located near the curtain and painting. the chair is on the right side of the table and the flower vase is close to it.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "114",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "wood-framed damask sofa chair by door",
+    "LangMap_Detailed": "beige damask-upholstered sofa chair with carved wood frame below framed sports painting near bed with white-and-beige bedding",
+    "GOAT_Bench": "the sofa chair, which is positioned next to a curtain and a cabinet.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "306",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "rectangular table above a plastic storage bin",
+    "LangMap_Detailed": "rectangular table above a plastic storage bin below multiple wall-mounted display shelves",
+    "GOAT_Bench": "table, a wooden table with shelves above it, in the room. the table is located below the toy.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "808",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "beige couch with dark teal pillows",
+    "LangMap_Detailed": "beige fabric two-seater couch with dark teal pillows below windows in living room with TV beside stone fireplace",
+    "GOAT_Bench": "leather couch in the room. the couch is located near the pillar on the left side. it is also near the rug on the right side. look for a big object with a rectangular shape.",
+    "Scene": "00814-p53SfW6mjZe",
+    "Object_id": "441",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "right rose sofa chair near fireplace",
+    "LangMap_Detailed": "right rose sofa chair beside the stone fireplace below a framed picture",
+    "GOAT_Bench": "purple sofa chair located near the plant and the curtain.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "488",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "left armchair near heart-shaped wall-shelf",
+    "LangMap_Detailed": "left armchair with a shared brown side table near heart-shaped wall-shelf and tv against stone wall",
+    "GOAT_Bench": "the brown leather armchair located near the table. it is positioned to the left of the table and slightly below it.",
+    "Scene": "00891-cvZr5TUy5C5",
+    "Object_id": "621",
+    "LangMap_Correct": true,
+    "GOAT_Correct": true
+  },
+  {
+    "LangMap_Concise": "brown dresser cabinet",
+    "LangMap_Detailed": "brown dresser cabinet in the bedroom near bed with white patterned bedding and a brown headboard",
+    "GOAT_Bench": "cabinet that has a tv mounted on it.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "180",
+    "LangMap_Correct": true,
+    "GOAT_Correct": false
+  },
+  {
+    "LangMap_Concise": "brown nightstand left of bed",
+    "LangMap_Detailed": "brown wooden nightstand with white lamp to the left of the bed with white patterned bedding and a brown headboard",
+    "GOAT_Bench": "wooden nightstand with a white lamp on it. the nightstand is located to the right of the bed and below the pillow.",
+    "Scene": "00848-ziup5kvtCCR",
+    "Object_id": "158",
+    "LangMap_Correct": false,
+    "GOAT_Correct": false
+  }
+]
